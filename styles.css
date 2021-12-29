@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&family=Urbanist:wght@100&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@700&family=Urbanist:wght@100&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@600&family=Urbanist:wght@100&family=Work+Sans&display=swap');
+:root{
+    --primarnaboja: rgb(233,150,122);
+    --sekundarnaboja: rgb(240,128,128);
+    --pomocnaboja: rgb(255,228,181);
+    --bijelaboja: rgb(248,249,249);
+    --crnaboja: rgb(23,32,42);
+    --sekundarnasiva: rgb(86,101,115);
+    --primarnasiva: rgb(93,109,126);
+}
+*, *::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--bijelaboja);
+    color: var(--bijelaboja);
+    font-weight: 400;
+}
+h1,h2,h3,h4{
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.kutija{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1200rem){
+    .kutija{
+        padding: 0 3rem;
+    }
+}
+@media only screen and (max-width: 1200rem){
+    .kutija{
+        max-width: 60rem;
+    }
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
